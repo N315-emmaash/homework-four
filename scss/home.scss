@@ -1,6 +1,6 @@
 .header{
     margin: 0 auto;
-        background-image: linear-gradient(rgba(115,104,230,0.3), rgba(115,104,230,0.3)),url(../images/pexels-polina-tankilevitch-5469045.jpg);
+        background-image: linear-gradient(rgba(115,104,230,0.5), rgba(115,104,230,0.5)),url(../images/pexels-polina-tankilevitch-5469045.jpg);
         min-height: 500px;
         overflow: hidden;
         width: 100%;
@@ -8,15 +8,91 @@
         background-repeat: no-repeat;
         background-position: center;
 
+        .header-text{
+            h1{
+                margin: 0 auto;
+                padding-top: 150px;
+                text-align: center;
+                font-family: 'Lucida Sans';
+                font-size: 100px;
+                color: white;
+                text-transform: uppercase;
+            }
+            p{
+                margin: 0 auto;
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                max-width:650px;
+                color:white;
+                line-height: 25px;
+                font-size: 20px;
+                font-family: 'Lucida Sans';
+        
+            }
+        }
+
     
 }
 
+.shopping{
+    .about{
+        margin: 0 auto;
+        min-height: 300px;
+        width: 100%;
+        background-color: #f59ba6;
+    
+        h1{
+            margin: 0 auto;
+            padding-top: 50px;
+            text-align: center;
+            font-family: 'Lucida Sans';
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+        }
+    
+        h3{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 100px;
+            max-width:650px;
+            color: #f59ba6;
+            font-size: 23px;
+            font-family: 'Lucida Sans';
+    
+        }
+    
+        p{
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            max-width:650px;
+            color:white;
+            line-height: 25px;
+            font-size: 16px;
+            font-family: 'Lucida Sans';
+    
+        }
+
+    }
+}
+
 .image-links{
+    padding-top: 50px ;
+    padding-bottom: 50px ;
     min-height: 300px;
     width: 100%;
      display: flex;
      align-items: center; 
      justify-content: space-evenly;
+
+     i{
+        color: white;
+        font-size: 25px;
+
+     }
 
     a{
         img{
