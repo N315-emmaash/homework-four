@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Four</title>
+    <script
+      src="https://kit.fontawesome.com/9a5dd11508.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="links">
+        <a href="index.html"><img src="images/candy.png" alt="" /></a>
+      </div>
+
+      <div class="sign-in-button">
+        <i class="fa-solid fa-user"></i>
+        <a id="myBtn" href="#">Sign In</a>
+        <i class="fa-solid fa-basket-shopping"></i>
+        <a href="shop.html">Shop</a>
+        <!-- <i class="fa-solid fa-heart"></i> -->
+        <!-- <button id="myBtn">Sign In</button> -->
+      </div>
+    </nav>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="form">
+          <h1>Sign In:</h1>
+          <p>Save your shopping cart by signing into your account.</p>
+          <div class="inputs">
+            <label for="un">Username:</label>
+            <input for="text" id="uName" required="true" />
+          </div>
+          <div class="inputs">
+            <label for="pd">Password:</label>
+            <input id="pWord" type="password" id="myInput" />
+          </div>
+
+          <input type="submit" value="Submit" id="submit" class="submit" />
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="header"></div>
+    </section>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
