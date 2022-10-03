@@ -5,8 +5,11 @@ nav{
      display: flex;
      align-items: center; 
      justify-content: space-evenly;
+     position: relative;
 
      .links{
+        position: absolute;
+        left: 50px;
         width: 200px;
          display: flex;
          align-items: center; 
@@ -24,6 +27,8 @@ nav{
      }
 
      .sign-in-button{
+        position: absolute;
+        right: 50px;
         i{
             color: white;
             font-size: 25px;
