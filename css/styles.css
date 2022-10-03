@@ -118,9 +118,24 @@ nav .sign-in-button a {
   background-position: center;
 }
 
+.image-links {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image-links a img {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .shopping {
   margin: 0 auto;
-  min-height: 400px;
+  min-height: 600px;
   width: 100%;
   background-color: #968fff;
 }
@@ -160,35 +175,37 @@ nav .sign-in-button a {
   align-items: center;
   justify-content: space-evenly;
 }
-.shopping .candy .candy-img {
-  margin: 0 auto;
-  padding-top: 75px;
+.shopping .candy .white-box {
   background-color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+.shopping .candy .white-box .candy-img {
+  margin: 0 auto;
+}
+.shopping .candy .white-box .candy-img img {
+  padding: 30px;
   height: 300px;
   width: 300px;
-  border-radius: 15px;
-}
-.shopping .candy .candy-img img {
-  height: 150px;
-  width: 150px;
   overflow: hidden;
   margin: 0 auto;
-  text-align: cen;
+  text-align: center;
 }
-.shopping .candy .candy-img .candy-price {
+.shopping .candy .white-box .candy-img .candy-price {
   margin: 0 auto;
   width: 300px;
 }
-.shopping .candy .candy-img .candy-price a {
+.shopping .candy .white-box .candy-img .candy-price h1 {
   margin: 0 auto;
   text-decoration: none;
   text-align: center;
-  padding-left: 50px;
   color: #f59ba6;
   font-size: 23px;
   font-family: "Lucida Sans";
 }
-.shopping .candy .candy-img .candy-price p {
+.shopping .candy .white-box .candy-img .candy-price p {
   margin: 0 auto;
   text-align: center;
   padding-top: 10px;
@@ -203,6 +220,38 @@ nav .sign-in-button a {
   .shopping .candy {
     flex-direction: column;
   }
+}
+footer {
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+}
+footer .logo {
+  margin: 0 auto;
+  height: 100px;
+  margin-bottom: -30px;
+}
+footer p {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Lucida Sans";
+  width: 300px;
+  color: grey;
+  padding-bottom: 30px;
+}
+footer .footer-social-icons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  color: #7267e3;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -10,3 +10,24 @@
 
     
 }
+
+.image-links{
+    min-height: 300px;
+    width: 100%;
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
+
+    a{
+        img{
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+            text-align: center;
+
+
+        }
+
+    }
+}

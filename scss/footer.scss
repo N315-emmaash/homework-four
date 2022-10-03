@@ -1,0 +1,44 @@
+footer{
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+
+    .logo{
+        margin: 0 auto;
+        height: 100px;
+        margin-bottom: -30px;
+        
+       }
+     p{
+      margin: 0 auto;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: 'Lucida Sans';
+            width: 300px;
+            color: grey;
+
+ padding-bottom: 30px;
+            
+
+     }
+
+
+
+     .footer-social-icons{
+        padding-top:30px;
+        padding-bottom:30px;
+        padding-left: 20px;
+        margin: 0 auto;
+        width: 150px;
+        height: 30px;
+        color: #7267e3;
+        font-size: 30px;
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+
+    }
+     
+
+
+}
